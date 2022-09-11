@@ -21,8 +21,6 @@ class ApacheSparkAT246 < Formula
   license "Apache-2.0"
   head "https://github.com/apache/spark.git"
 
-  # TODO add bottle
-
   keg_only :versioned_formula
 
   depends_on "openjdk@8"
