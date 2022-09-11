@@ -19,7 +19,7 @@ class ApacheSparkAT246 < Formula
   version "2.4.6"
   sha256 "7174fee30057fbf226698ebfcfa7c2944a26197e149053aa29b26b250d1e1eba"
   license "Apache-2.0"
-  head "https://github.com/apache/spark.git"
+  head "https://github.com/apache/spark.git", branch: "master"
 
   keg_only :versioned_formula
 
