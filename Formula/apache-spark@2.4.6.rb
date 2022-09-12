@@ -21,6 +21,11 @@ class ApacheSparkAT246 < Formula
   license "Apache-2.0"
   head "https://github.com/apache/spark.git", branch: "master"
 
+  bottle do
+    root_url "https://github.com/AbsaOSS/homebrew-tap/releases/download/apache-spark@2.4.6-2.4.6"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "347623ba0c8fc60a576962041744109107c1948e5e314eaa40374c0701bb360e"
+  end
+
   keg_only :versioned_formula
 
   depends_on "openjdk@8"
